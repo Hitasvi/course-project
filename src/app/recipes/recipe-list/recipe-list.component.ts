@@ -7,12 +7,13 @@ import {Recipe} from '../recipe.model';
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent implements OnInit {
-  recipes:Recipe[]={new Recipe("A Test Recipe","This is a simply test","https://www.gimmesomeoven.com/fried-rice-recipe/
-  ")};
+  recipes:Recipe[]=[new Recipe("A Test Recipe","This is a simply test",
+  "https://www.gimmesomeoven.com/fried-rice-recipe/")];
 
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
